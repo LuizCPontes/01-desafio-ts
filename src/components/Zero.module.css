@@ -1,0 +1,16 @@
+.main {
+    max-width: 55rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 22.4px;
+}
+
+.main div {
+    color: var(--gray-300)
+}
+
+.text {
+    font-weight: bold;
+}

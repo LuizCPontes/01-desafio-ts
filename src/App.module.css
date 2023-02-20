@@ -1,0 +1,43 @@
+.wrapper {
+    max-width: 70rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: 256px 1fr;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.newTask {
+    display: grid;
+    grid-template-columns: auto 90px;
+    gap: 0.5rem;
+}
+
+.newTask input {
+    border-radius: 8px;
+    background: var(--gray-600);
+    border: 1px solid var(--gray-400);
+}
+
+.newTask button {
+    background: var(--dark-blue);
+    border-radius: 8px;
+    color: var(--gray-100);
+    padding: 1rem;
+    border: 0;
+}
+
+.taskList {
+    max-width: 55rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.taskList ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+}

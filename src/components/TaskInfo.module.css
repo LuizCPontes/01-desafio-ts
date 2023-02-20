@@ -1,0 +1,37 @@
+.info {
+    max-width: 55rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: 1fr 90px;
+    gap: 0.75rem;
+    align-items: flex-start;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: var(--blue);
+    font-size: 0.875rem;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+.info div {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+
+.info span {
+    background: var(--gray-400);
+    color: var(--gray-200);
+    padding: 0.125rem 0.5rem;
+    border-radius: 8px;
+    font-size: 0.75rem;
+}
